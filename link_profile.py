@@ -5,6 +5,7 @@ import time
 import random
 from datetime import datetime
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, TimeoutException
@@ -25,11 +26,24 @@ def get_random_user_agent():
     ]
     return random.choice(user_agents)
 
+
 def init_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--incognito")
-    chrome_options.add_argument(f"user-agent={get_random_user_agent()}")
-    return webdriver.Chrome(options=chrome_options)
+    chrome_options.add_argument("--incognito")  # Enable incognito mode
+    chrome_options.add_argument(f"user-agent={get_random_user_agent()}")  # Add random user-agent
+    # chrome_options.add_argument("--headless")  # Optional: Run in headless mode
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--no-sandbox")
+
+    # Path to the ChromeDriver binary (Ensure you have it installed)
+    driver_path = "/usr/local/bin/chromedriver"  # Adjust this if needed
+    service = Service(driver_path)
+
+    # Initialize the WebDriver with options and service
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+
+    return driver
 
 def login_to_linkedin(driver):
     driver.get("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")

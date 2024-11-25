@@ -1,7 +1,6 @@
 [
     {
         "profile_name": "Georgios Kolias",
-        "location": "Greece",
         "workExperience": [
             {
                 "company": "Omniworks ·",
@@ -85,7 +84,6 @@
     },
     {
         "profile_name": "Alan Scheppmann, CPA",
-        "location": "High Point, North Carolina, United States",
         "workExperience": [
             {
                 "company": "Sharrard McGee & Co. P. A. Sharrard McGee & Co. P. A.",
@@ -99,7 +97,6 @@
     },
     {
         "profile_name": "Stephanie Spinucci",
-        "location": "Charleston, South Carolina, United States",
         "workExperience": [
             {
                 "company": "Carr, Riggs & Ingram ·",
@@ -161,7 +158,6 @@
     },
     {
         "profile_name": "Aileen B. Bolger, CPA",
-        "location": "Atlanta, Georgia, United States",
         "workExperience": [
             {
                 "company": "Carr, Riggs & Ingram ·",
@@ -207,7 +203,6 @@
     },
     {
         "profile_name": "Anne Thompson",
-        "location": "Redwood City, California, United States",
         "workExperience": [
             {
                 "company": "Seiler LLP",
