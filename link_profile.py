@@ -299,24 +299,27 @@ def extract_experience(driver):
     return experiences
 # Call the function with your driver instance
 
-def scrape_profile(driver, url):
+def scrape_profile(driver, profile):
+    url = profile['url']  # Extract URL from the profile object
     driver.get(url)
     time.sleep(random.uniform(2, 4))
     profile_data = {}
 
     try:
+        profile_data['id'] = profile['id']  # Use the provided ID from profile.json
         profile_data['profile_name'] = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//h1"))
         ).text
 
-        # profile_data['location'] = clean_text(driver.find_element(By.CSS_SELECTOR, ".text-body-small").text)
         try:
-            location_element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//span[@class='text-body-small inline t-black--light break-words']"))
-            )
+            # Locate the location element using XPath
+            location_element = driver.find_element(By.XPATH, "//span[@class='text-body-small inline t-black--light break-words']")
             profile_data['location'] = location_element.text
+            print("Location:", profile_data['location'])
+
         except Exception as e:
-            print("Error: ", e)
+            print(f"Error: {e}")
+
         profile_data['workExperience'] = extract_experience(driver)
 
     except NoSuchElementException as e:
@@ -328,16 +331,16 @@ def main():
     login_to_linkedin(driver)
 
     with open("profile.json", 'r') as file:
-        linkedin_urls = json.load(file)
+        linkedin_profiles = json.load(file)
 
     all_profiles_data = []
-    for url in linkedin_urls:
-        print(f"Scraping profile: {url}")
+    for profile in linkedin_profiles:
+        print(f"Scraping profile: {profile['url']}")
         try:
-            profile_data = scrape_profile(driver, url)
+            profile_data = scrape_profile(driver, profile)
             all_profiles_data.append(profile_data)
         except Exception as e:
-            print(f"Error scraping {url}: {e}")
+            print(f"Error scraping {profile['url']}: {e}")
 
     with open("output.json", "w", encoding="utf-8") as json_file:
         json.dump(all_profiles_data, json_file, ensure_ascii=False, indent=4)

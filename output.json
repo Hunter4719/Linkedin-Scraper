@@ -1,17 +1,19 @@
 [
     {
+        "id": 145,
         "profile_name": "Georgios Kolias",
+        "location": "Greece",
         "workExperience": [
             {
-                "company": "Omniworks ·",
+                "company": "Omniworks",
                 "title": "Senior Software Engineer",
                 "description": "• Modernize Web Banking based on microservices, DDD and Event Driven Architecture • Create rich domain models to enhance system understanding and communication among cross-functional teams. • Produce detailed diagrams, including system architecture, workflow, and sequence diagrams, enhancing communication across multidisciplinary teams. • Collaborate closely with the Product Owner to set team goals and update the roadmap quarterly, ensuring alignment with strategic objectives • Support and mentor junior members, facilitating their professional growth and integration into Agile practices. • Develop synchronization mechanism between legacy and microservices",
                 "location": "Athens, Attiki, Greece Athens, Attiki, Greece",
                 "startDate": "20220901",
-                "endDate": "Unknown format"
+                "endDate": "20990101"
             },
             {
-                "company": "interworks.cloud ·",
+                "company": "interworks.cloud",
                 "title": "Senior Software Engineer",
                 "description": "• Redesign the Platform based on microservices, DDD and Event Driven Architecture. • Develop critical features for a high-volume CRM Platform. • Analyze Business needs and propose solutions as part of a fast-paced Scrum team.",
                 "location": "Athens, Attiki, Greece Athens, Attiki, Greece",
@@ -83,7 +85,9 @@
         ]
     },
     {
+        "id": 246,
         "profile_name": "Alan Scheppmann, CPA",
+        "location": "High Point, North Carolina, United States",
         "workExperience": [
             {
                 "company": "Sharrard McGee & Co. P. A. Sharrard McGee & Co. P. A.",
@@ -91,20 +95,22 @@
                 "description": "",
                 "location": "",
                 "startDate": "19850101",
-                "endDate": "Unknown format"
+                "endDate": "20990101"
             }
         ]
     },
     {
+        "id": 347,
         "profile_name": "Stephanie Spinucci",
+        "location": "Charleston, South Carolina, United States",
         "workExperience": [
             {
-                "company": "Carr, Riggs & Ingram ·",
+                "company": "Carr, Riggs & Ingram",
                 "title": "Partner",
                 "description": "",
                 "location": "Charleston, South Carolina Metropolitan Area Charleston, South Carolina Metropolitan Area",
                 "startDate": "20221201",
-                "endDate": "Unknown format"
+                "endDate": "20990101"
             },
             {
                 "company": "The Lanning Group LLC The Lanning Group LLC",
@@ -157,15 +163,17 @@
         ]
     },
     {
+        "id": 448,
         "profile_name": "Aileen B. Bolger, CPA",
+        "location": "Atlanta, Georgia, United States",
         "workExperience": [
             {
-                "company": "Carr, Riggs & Ingram ·",
+                "company": "Carr, Riggs & Ingram",
                 "title": "Partner- Carr, Riggs & Ingram CPA's and Advisors",
                 "description": "",
                 "location": "Atlanta, Georgia, United States Atlanta, Georgia, United States",
                 "startDate": "20211001",
-                "endDate": "Unknown format"
+                "endDate": "20990101"
             },
             {
                 "company": "Brooks, McGinnis & Company, LLC Brooks, McGinnis & Company, LLC",
@@ -192,7 +200,7 @@
                 "endDate": "19970901"
             },
             {
-                "company": "Munns & Dobbins, CPA's - (currently O'Connor, Davies, Munns & Donnins, CPA's/PKFOD) ·",
+                "company": "Munns & Dobbins, CPA's - (currently O'Connor, Davies, Munns & Donnins, CPA's/PKFOD)",
                 "title": "Audit Senior/Supervisor-CPA",
                 "description": "",
                 "location": "Scarsdale, NY Scarsdale, NY",
@@ -202,26 +210,28 @@
         ]
     },
     {
+        "id": 559,
         "profile_name": "Anne Thompson",
+        "location": "Redwood City, California, United States",
         "workExperience": [
             {
                 "company": "Seiler LLP",
                 "title": "Chief Financial Officer",
-                "description": "Skills: Cash Management · Internal Controls · Financial Analysis · Financial Modeling · Planning Budgeting & Forecasting · Financial Leadership · Financial Statements · Financial Advisory · Financial Planning · Financial Services · Annual Budgeting · Tax Accounting · Banking · Finance · Financial Reporting · Forecasting · Cash Flow · Financial Forecasting · Strategic Financial Management · Generally Accepted Accounting Principles (GAAP) · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting & Forecasting · Budgeting · Project Management · Analytical Skills · Risk Management · Management Accounting · Income Statements",
+                "description": "Skills: Cash Management Internal Controls Financial Analysis Financial Modeling Planning Budgeting & Forecasting Financial Leadership Financial Statements Financial Advisory Financial Planning Financial Services Annual Budgeting Tax Accounting Banking Finance Financial Reporting Forecasting Cash Flow Financial Forecasting Strategic Financial Management Generally Accepted Accounting Principles (GAAP) Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting & Forecasting Budgeting Project Management Analytical Skills Risk Management Management Accounting Income Statements",
                 "start_date": "20220101",
-                "end_date": "Unknown format"
+                "end_date": "20990101"
             },
             {
                 "company": "Seiler LLP",
                 "title": "Director of Finance",
-                "description": "Skills: Cash Management · Internal Controls · Financial Analysis · Financial Modeling · Planning Budgeting & Forecasting · Financial Leadership · Financial Statements · Financial Advisory · Financial Planning · Financial Services · Annual Budgeting · Tax Accounting · Banking · Finance · Financial Reporting · Forecasting · Cash Flow · Financial Forecasting · Strategic Financial Management · Generally Accepted Accounting Principles (GAAP) · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting & Forecasting · Budgeting · Project Management · Analytical Skills · Risk Management · Management Accounting · Income Statements",
+                "description": "Skills: Cash Management Internal Controls Financial Analysis Financial Modeling Planning Budgeting & Forecasting Financial Leadership Financial Statements Financial Advisory Financial Planning Financial Services Annual Budgeting Tax Accounting Banking Finance Financial Reporting Forecasting Cash Flow Financial Forecasting Strategic Financial Management Generally Accepted Accounting Principles (GAAP) Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting & Forecasting Budgeting Project Management Analytical Skills Risk Management Management Accounting Income Statements",
                 "start_date": "20161101",
                 "end_date": "20220101"
             },
             {
                 "company": "McCathern Law Firm McCathern Law Firm",
                 "title": "Controller",
-                "description": "Skills: Cash Management · Financial Analysis · Planning Budgeting & Forecasting · Financial Statements · Financial Advisory · Banking · Financial Reporting · Cash Flow · Financial Forecasting · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting · Analytical Skills · Management Accounting · Income Statements",
+                "description": "Skills: Cash Management Financial Analysis Planning Budgeting & Forecasting Financial Statements Financial Advisory Banking Financial Reporting Cash Flow Financial Forecasting Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting Analytical Skills Management Accounting Income Statements",
                 "location": "",
                 "startDate": "20150701",
                 "endDate": "20161001"
@@ -229,7 +239,7 @@
             {
                 "company": "Hermes Sargent Bates, LLP Hermes Sargent Bates, LLP",
                 "title": "Executive Director",
-                "description": "Skills: Cash Management · Financial Analysis · Planning Budgeting & Forecasting · Financial Statements · Financial Advisory · Banking · Finance · Financial Reporting · Cash Flow · Financial Forecasting · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting & Forecasting · Budgeting · Analytical Skills · Management Accounting · Income Statements",
+                "description": "Skills: Cash Management Financial Analysis Planning Budgeting & Forecasting Financial Statements Financial Advisory Banking Finance Financial Reporting Cash Flow Financial Forecasting Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting & Forecasting Budgeting Analytical Skills Management Accounting Income Statements",
                 "location": "Dallas Dallas",
                 "startDate": "20130901",
                 "endDate": "20150601"
@@ -237,7 +247,7 @@
             {
                 "company": "Carrington Coleman Carrington Coleman",
                 "title": "Controller",
-                "description": "Skills: Cash Management · Financial Analysis · Planning Budgeting & Forecasting · Financial Statements · Annual Budgeting · Banking · Finance · Financial Reporting · Cash Flow · Financial Forecasting · Working Capital Management · Financial Controlling · Budgeting & Forecasting · Budgeting · Analytical Skills · Management Accounting · Income Statements",
+                "description": "Skills: Cash Management Financial Analysis Planning Budgeting & Forecasting Financial Statements Annual Budgeting Banking Finance Financial Reporting Cash Flow Financial Forecasting Working Capital Management Financial Controlling Budgeting & Forecasting Budgeting Analytical Skills Management Accounting Income Statements",
                 "location": "",
                 "startDate": "20040201",
                 "endDate": "20130901"
