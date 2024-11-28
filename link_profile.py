@@ -71,6 +71,7 @@ def clean_text(text):
     text = text.replace('\n', ' ').strip()
     # Replace multiple spaces with a single space
     text = ' '.join(text.split())
+    text = text.replace(' ·', '').replace('· ', '').replace('·', '')
     return text
 
 
@@ -100,7 +101,7 @@ def format_date(date_str):
         except ValueError:
             continue
     # If no format matches, return a specific placeholder
-    return "Unknown format"  # Or you can decide to handle differently if needed
+    return "20990101"  # Or you can decide to handle differently if needed
 
 def nested_experience(section,company_name):
     nested_experience_data = {}
