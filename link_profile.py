@@ -311,7 +311,7 @@ def scrape_profile(driver, url):
         # profile_data['location'] = clean_text(driver.find_element(By.CSS_SELECTOR, ".text-body-small").text)
         try:
             location_element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'qFwUIwZUeLkSXULFROGvJqkHmIwZEOnztiA mt2')]//span[contains(@class, 'text-body-small') and contains(@class, 't-black--light')]"))
+                EC.presence_of_element_located((By.XPATH, "//span[@class='text-body-small inline t-black--light break-words']"))
             )
             profile_data['location'] = location_element.text
         except Exception as e:
