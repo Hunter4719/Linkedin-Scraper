@@ -101,7 +101,7 @@ def format_date(date_str):
         except ValueError:
             continue
     # If no format matches, return a specific placeholder
-    return "20990101"  # Or you can decide to handle differently if needed
+    return "20991231"  # Or you can decide to handle differently if needed
 
 def nested_experience(section,company_name):
     nested_experience_data = {}
