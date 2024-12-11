@@ -1,22 +1,22 @@
 [
     {
-        "id": 145,
+        "id": 1,
         "profile_name": "Georgios Kolias",
         "location": "Greece",
         "workExperience": [
             {
-                "company": "Omniworks",
+                "company": "Omniworks · Full-time",
                 "title": "Senior Software Engineer",
                 "description": "• Modernize Web Banking based on microservices, DDD and Event Driven Architecture • Create rich domain models to enhance system understanding and communication among cross-functional teams. • Produce detailed diagrams, including system architecture, workflow, and sequence diagrams, enhancing communication across multidisciplinary teams. • Collaborate closely with the Product Owner to set team goals and update the roadmap quarterly, ensuring alignment with strategic objectives • Support and mentor junior members, facilitating their professional growth and integration into Agile practices. • Develop synchronization mechanism between legacy and microservices",
-                "location": "Athens, Attiki, Greece Athens, Attiki, Greece",
+                "location": "Athens, Attiki, Greece",
                 "startDate": "20220901",
-                "endDate": "20990101"
+                "endDate": "20991231"
             },
             {
-                "company": "interworks.cloud",
+                "company": "interworks.cloud · Full-time",
                 "title": "Senior Software Engineer",
                 "description": "• Redesign the Platform based on microservices, DDD and Event Driven Architecture. • Develop critical features for a high-volume CRM Platform. • Analyze Business needs and propose solutions as part of a fast-paced Scrum team.",
-                "location": "Athens, Attiki, Greece Athens, Attiki, Greece",
+                "location": "Athens, Attiki, Greece",
                 "startDate": "20201201",
                 "endDate": "20220901"
             },
@@ -35,7 +35,7 @@
                 "end_date": "20170901"
             },
             {
-                "company": "IMS Health IMS Health",
+                "company": "IMS Health",
                 "title": "Software Developer, Analyst",
                 "description": "• Developing web based software solutions for pharmaceutical companies. • Developing Business Intelligence solutions • Integrating CRM Data with third party systems",
                 "location": "",
@@ -43,39 +43,39 @@
                 "endDate": "20170701"
             },
             {
-                "company": "Umobit Umobit",
+                "company": "Umobit",
                 "title": "Software Engineer",
                 "description": "• Developing secure and responsive web sites using .Net Technologies, Hmtl5,CSS3 • Using ASP Web Forms framework and C# language to develop corporate websites. • Migrating joomla,wordpress and php sites to .Net",
-                "location": "Greece Greece",
+                "location": "Greece",
                 "startDate": "20131101",
                 "endDate": "20141201"
             },
             {
-                "company": "Self Employed Tutor Self Employed Tutor",
+                "company": "Self Employed Tutor",
                 "title": "Programming and Advanced Mathematics Teacher",
                 "description": "• Teaching university students programming languages( C, C++, Java, Php). • Giving private lesson to university students (Computer Science Mathematics, Numerical Analysis, Algorithms, Linear Algebra). • Teaching High School students Programming and preparing them for national examination.",
-                "location": "Athens, Greece Athens, Greece",
+                "location": "Athens, Greece",
                 "startDate": "20130801",
                 "endDate": "20141201"
             },
             {
-                "company": "Freelance Freelance",
+                "company": "Freelance",
                 "title": "Web Developer",
                 "description": "Developing responive websites using php,Html4, css3 and javascript. Customizing html templates and CMS. Upgrading and adding features to live sites.",
-                "location": "Athens,Greece Athens,Greece",
+                "location": "Athens,Greece",
                 "startDate": "20130301",
                 "endDate": "20131101"
             },
             {
-                "company": "Greek army Greek army",
+                "company": "Greek army",
                 "title": "School of Research and Informatics Officers of the Hellenic Army",
                 "description": "Information System Engineering • Users' support and registration in the domain • Servers maintenance and administration • Monitored the application of security policies and suggested new ones • Provided technical support in web services",
-                "location": "Goudi,Athens Goudi,Athens",
+                "location": "Goudi,Athens",
                 "startDate": "20120501",
                 "endDate": "20130201"
             },
             {
-                "company": "THINKDIGITAL THINKDIGITAL",
+                "company": "THINKDIGITAL",
                 "title": "Internship",
                 "description": "Internship • Responsible for programming of advertising campaigns using flash technology and their uploading on the Directtrack Platform • Maintained advertising websites using Wordpress Platform • Developed categorization tool for xml feed • Developed image gallery using php and JavaScript • Gained insight into Affiliate marketing and its principles",
                 "location": "",
@@ -85,51 +85,51 @@
         ]
     },
     {
-        "id": 246,
+        "id": 2,
         "profile_name": "Alan Scheppmann, CPA",
         "location": "High Point, North Carolina, United States",
         "workExperience": [
             {
-                "company": "Sharrard McGee & Co. P. A. Sharrard McGee & Co. P. A.",
+                "company": "Sharrard McGee & Co. P. A.",
                 "title": "Director",
                 "description": "",
                 "location": "",
                 "startDate": "19850101",
-                "endDate": "20990101"
+                "endDate": "20991231"
             }
         ]
     },
     {
-        "id": 347,
+        "id": 3,
         "profile_name": "Stephanie Spinucci",
         "location": "Charleston, South Carolina, United States",
         "workExperience": [
             {
-                "company": "Carr, Riggs & Ingram",
+                "company": "Carr, Riggs & Ingram · Full-time",
                 "title": "Partner",
                 "description": "",
-                "location": "Charleston, South Carolina Metropolitan Area Charleston, South Carolina Metropolitan Area",
+                "location": "Charleston, South Carolina Metropolitan Area",
                 "startDate": "20221201",
-                "endDate": "20990101"
+                "endDate": "20991231"
             },
             {
-                "company": "The Lanning Group LLC The Lanning Group LLC",
+                "company": "The Lanning Group LLC",
                 "title": "Senior Tax Manager",
                 "description": "- review income tax returns for corporations, partnerships, trusts, and individuals - tax planning for business owners and high-wealth individuals - areas of expertise include high-wealth individuals and mulit-state tax return filings - IRS audit and notice resolution - training and mentoring staff - recruiting",
-                "location": "Mt. Pleasant, SC Mt. Pleasant, SC",
+                "location": "Mt. Pleasant, SC",
                 "startDate": "20181201",
                 "endDate": "20221201"
             },
             {
-                "company": "Johnson & Lanning CPAs Johnson & Lanning CPAs",
+                "company": "Johnson & Lanning CPAs",
                 "title": "Tax manager",
                 "description": "- review income tax returns for corporations, partnerships, trusts, and individuals - tax planning for business owners and high-wealth individuals - areas of expertise include high-wealth individuals and mulit-state tax return filings - IRS audit and notice resolution - training and mentoring staff",
-                "location": "Mt. Pleasant, SC Mt. Pleasant, SC",
+                "location": "Mt. Pleasant, SC",
                 "startDate": "20131201",
                 "endDate": "20181201"
             },
             {
-                "company": "Rotary International Rotary International",
+                "company": "Rotary International",
                 "title": "Board Member",
                 "description": "",
                 "location": "",
@@ -137,7 +137,7 @@
                 "endDate": "20131201"
             },
             {
-                "company": "Legare Bailey Hinske, LLC Legare Bailey Hinske, LLC",
+                "company": "Legare Bailey Hinske, LLC",
                 "title": "Senior Tax Accountant",
                 "description": "- Income tax return preparation for individuals, partnerships, and corporations - tax planning - IRS audit and notice resolution - innocent spouse relief filings - maintenance of firm blog, newsletter and social media",
                 "location": "",
@@ -145,7 +145,7 @@
                 "endDate": "20131201"
             },
             {
-                "company": "Dixon Hughes Goodman LLP Dixon Hughes Goodman LLP",
+                "company": "Dixon Hughes Goodman LLP",
                 "title": "Senior Tax Accountant",
                 "description": "- Income tax preparation for individuals, partnerships, and corporations - tax planning - IRS audit and notice resolution - train and mentor staff",
                 "location": "",
@@ -153,107 +153,107 @@
                 "endDate": "20080601"
             },
             {
-                "company": "Crow Shields Bailey PC Crow Shields Bailey PC",
+                "company": "Crow Shields Bailey PC",
                 "title": "Tax Accountant",
                 "description": "Preparation of individual and corporate tax returns.",
-                "location": "Mobile, Alabama Area Mobile, Alabama Area",
+                "location": "Mobile, Alabama Area",
                 "startDate": "20050901",
                 "endDate": "20060701"
             }
         ]
     },
     {
-        "id": 448,
+        "id": 4,
         "profile_name": "Aileen B. Bolger, CPA",
         "location": "Atlanta, Georgia, United States",
         "workExperience": [
             {
-                "company": "Carr, Riggs & Ingram",
+                "company": "Carr, Riggs & Ingram · Full-time",
                 "title": "Partner- Carr, Riggs & Ingram CPA's and Advisors",
                 "description": "",
-                "location": "Atlanta, Georgia, United States Atlanta, Georgia, United States",
+                "location": "Atlanta, Georgia, United States",
                 "startDate": "20211001",
-                "endDate": "20990101"
+                "endDate": "20991231"
             },
             {
-                "company": "Brooks, McGinnis & Company, LLC Brooks, McGinnis & Company, LLC",
+                "company": "Brooks, McGinnis & Company, LLC",
                 "title": "Partner-Brooks, McGinnis & Company, LLC.",
                 "description": "Aileen specializes in working with nonprofits to help them develop solutions in accounting, auditing and employee benefits. With over 20 years of experience focusing on nonprofit organizations, Aileen is able to bring best practices and methodology to help leadership better manage and understand financial information. Specialties: expertise includes non profit organizations, employee benefit plans, health and welfare organizations, religious and educational organizations.",
-                "location": "Sandy Springs, GA Sandy Springs, GA",
+                "location": "Sandy Springs, GA",
                 "startDate": "20020101",
                 "endDate": "20211101"
             },
             {
-                "company": "Concentra Concentra",
+                "company": "Concentra",
                 "title": "Director of Finance and Administration",
                 "description": "",
-                "location": "Atanta, GA Atanta, GA",
+                "location": "Atanta, GA",
                 "startDate": "19970901",
                 "endDate": "20001101"
             },
             {
-                "company": "Georgia Health Group, Inc./Theratx Georgia Health Group, Inc./Theratx",
+                "company": "Georgia Health Group, Inc./Theratx",
                 "title": "Finance Manager",
                 "description": "",
-                "location": "Atlanta, GA Atlanta, GA",
+                "location": "Atlanta, GA",
                 "startDate": "19950901",
                 "endDate": "19970901"
             },
             {
-                "company": "Munns & Dobbins, CPA's - (currently O'Connor, Davies, Munns & Donnins, CPA's/PKFOD)",
+                "company": "Munns & Dobbins, CPA's - (currently O'Connor, Davies, Munns & Donnins, CPA's/PKFOD) · Full-time",
                 "title": "Audit Senior/Supervisor-CPA",
                 "description": "",
-                "location": "Scarsdale, NY Scarsdale, NY",
+                "location": "Scarsdale, NY",
                 "startDate": "19880601",
                 "endDate": "19950801"
             }
         ]
     },
     {
-        "id": 559,
+        "id": 5,
         "profile_name": "Anne Thompson",
         "location": "Redwood City, California, United States",
         "workExperience": [
             {
                 "company": "Seiler LLP",
                 "title": "Chief Financial Officer",
-                "description": "Skills: Cash Management Internal Controls Financial Analysis Financial Modeling Planning Budgeting & Forecasting Financial Leadership Financial Statements Financial Advisory Financial Planning Financial Services Annual Budgeting Tax Accounting Banking Finance Financial Reporting Forecasting Cash Flow Financial Forecasting Strategic Financial Management Generally Accepted Accounting Principles (GAAP) Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting & Forecasting Budgeting Project Management Analytical Skills Risk Management Management Accounting Income Statements",
+                "description": "Skills: Cash Management · Internal Controls · Financial Analysis · Financial Modeling · Planning Budgeting & Forecasting · Financial Leadership · Financial Statements · Financial Advisory · Financial Planning · Financial Services · Annual Budgeting · Tax Accounting · Banking · Finance · Financial Reporting · Forecasting · Cash Flow · Financial Forecasting · Strategic Financial Management · Generally Accepted Accounting Principles (GAAP) · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting & Forecasting · Budgeting · Project Management · Analytical Skills · Risk Management · Management Accounting · Income Statements",
                 "start_date": "20220101",
-                "end_date": "20990101"
+                "end_date": "20991231"
             },
             {
                 "company": "Seiler LLP",
                 "title": "Director of Finance",
-                "description": "Skills: Cash Management Internal Controls Financial Analysis Financial Modeling Planning Budgeting & Forecasting Financial Leadership Financial Statements Financial Advisory Financial Planning Financial Services Annual Budgeting Tax Accounting Banking Finance Financial Reporting Forecasting Cash Flow Financial Forecasting Strategic Financial Management Generally Accepted Accounting Principles (GAAP) Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting & Forecasting Budgeting Project Management Analytical Skills Risk Management Management Accounting Income Statements",
+                "description": "Skills: Cash Management · Internal Controls · Financial Analysis · Financial Modeling · Planning Budgeting & Forecasting · Financial Leadership · Financial Statements · Financial Advisory · Financial Planning · Financial Services · Annual Budgeting · Tax Accounting · Banking · Finance · Financial Reporting · Forecasting · Cash Flow · Financial Forecasting · Strategic Financial Management · Generally Accepted Accounting Principles (GAAP) · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting & Forecasting · Budgeting · Project Management · Analytical Skills · Risk Management · Management Accounting · Income Statements",
                 "start_date": "20161101",
                 "end_date": "20220101"
             },
             {
-                "company": "McCathern Law Firm McCathern Law Firm",
+                "company": "McCathern Law Firm",
                 "title": "Controller",
-                "description": "Skills: Cash Management Financial Analysis Planning Budgeting & Forecasting Financial Statements Financial Advisory Banking Financial Reporting Cash Flow Financial Forecasting Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting Analytical Skills Management Accounting Income Statements",
+                "description": "Skills: Cash Management · Financial Analysis · Planning Budgeting & Forecasting · Financial Statements · Financial Advisory · Banking · Financial Reporting · Cash Flow · Financial Forecasting · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting · Analytical Skills · Management Accounting · Income Statements",
                 "location": "",
                 "startDate": "20150701",
                 "endDate": "20161001"
             },
             {
-                "company": "Hermes Sargent Bates, LLP Hermes Sargent Bates, LLP",
+                "company": "Hermes Sargent Bates, LLP",
                 "title": "Executive Director",
-                "description": "Skills: Cash Management Financial Analysis Planning Budgeting & Forecasting Financial Statements Financial Advisory Banking Finance Financial Reporting Cash Flow Financial Forecasting Working Capital Management Accounts Receivable (AR) Financial Controlling Budgeting & Forecasting Budgeting Analytical Skills Management Accounting Income Statements",
-                "location": "Dallas Dallas",
+                "description": "Skills: Cash Management · Financial Analysis · Planning Budgeting & Forecasting · Financial Statements · Financial Advisory · Banking · Finance · Financial Reporting · Cash Flow · Financial Forecasting · Working Capital Management · Accounts Receivable (AR) · Financial Controlling · Budgeting & Forecasting · Budgeting · Analytical Skills · Management Accounting · Income Statements",
+                "location": "Dallas",
                 "startDate": "20130901",
                 "endDate": "20150601"
             },
             {
-                "company": "Carrington Coleman Carrington Coleman",
+                "company": "Carrington Coleman",
                 "title": "Controller",
-                "description": "Skills: Cash Management Financial Analysis Planning Budgeting & Forecasting Financial Statements Annual Budgeting Banking Finance Financial Reporting Cash Flow Financial Forecasting Working Capital Management Financial Controlling Budgeting & Forecasting Budgeting Analytical Skills Management Accounting Income Statements",
+                "description": "Skills: Cash Management · Financial Analysis · Planning Budgeting & Forecasting · Financial Statements · Annual Budgeting · Banking · Finance · Financial Reporting · Cash Flow · Financial Forecasting · Working Capital Management · Financial Controlling · Budgeting & Forecasting · Budgeting · Analytical Skills · Management Accounting · Income Statements",
                 "location": "",
                 "startDate": "20040201",
                 "endDate": "20130901"
             },
             {
-                "company": "Godwin Lewis PC Godwin Lewis PC",
+                "company": "Godwin Lewis PC",
                 "title": "Financial Accounting Manager",
                 "description": "Skills: Management Accounting",
                 "location": "",
@@ -261,18 +261,18 @@
                 "endDate": "20040101"
             },
             {
-                "company": "Neiman Marcus Neiman Marcus",
+                "company": "Neiman Marcus",
                 "title": "Accounting Supervisor",
                 "description": "",
-                "location": "Dallas/Fort Worth Area Dallas/Fort Worth Area",
+                "location": "Dallas/Fort Worth Area",
                 "startDate": "19990901",
                 "endDate": "20010801"
             },
             {
-                "company": "Bellagio/Desert Inn Bellagio/Desert Inn",
+                "company": "Bellagio/Desert Inn",
                 "title": "Accounting Manager",
                 "description": "",
-                "location": "Las Vegas Las Vegas",
+                "location": "Las Vegas",
                 "startDate": "19951201",
                 "endDate": "19990801"
             }
