@@ -71,9 +71,30 @@ def clean_text(text):
     text = text.replace('\n', ' ').strip()
     # Replace multiple spaces with a single space
     text = ' '.join(text.split())
-    text = text.replace(' ·', '').replace('· ', '').replace('·', '')
     return text
 
+
+def clean_location(location_text):
+    """Helper function to clean up duplicated location text."""
+    # Remove extra spaces and newlines
+    location_text = location_text.replace('\n', ' ').strip()
+
+    # Check for duplicate location text (if text appears twice, remove the duplicate)
+    # In this case, we assume the duplicate is the same as the visible text
+    # (e.g., 'Athens, Attiki, Greece Athens, Attiki, Greece')
+    parts = location_text.split()
+
+    # Check if the first and second halves of the location text are identical
+    if len(parts) > 1 and parts[:len(parts) // 2] == parts[len(parts) // 2:]:
+        location_text = ' '.join(parts[:len(parts) // 2])  # Keep only the first half
+
+    return location_text
+def remove_duplicate_location(location_text):
+    """Helper function to remove duplicate location entries."""
+    # Split the location string by commas and remove duplicates
+    location_parts = location_text.split(',')
+    unique_location_parts = list(dict.fromkeys(location_parts))  # Remove duplicates
+    return ', '.join(unique_location_parts)
 
 def parse_dates(dates_text):
     """Helper function to parse dates and split them into start and end dates in YYYYMMDD format."""
@@ -200,10 +221,12 @@ def scrape_experience(driver, li_list, show_more_button):
                     continue
                 company_name_element = section.find_element(By.XPATH,
                                                             ".//span[contains(@class, 't-14') and contains(@class, 't-normal') and not(contains(@class, 't-black--light'))][1]")
-                company_name_text = clean_text(company_name_element.text)
+                company_name_text = company_name_element.text.strip()
+                clean_company_text = clean_location(company_name_text)
                 # Remove any extraneous job type info
-                company_name_text = re.split(r'Full-time|Part-time|Internship', company_name_text)[0].strip()
-                experience['company'] = company_name_text
+                # company_name_text = re.split(r'Full-time|Part-time|Internship', company_name_text)[0].strip()
+                experience['company'] = clean_company_text
+                print(f"Cleaned Company: {clean_company_text}")
                 # Job title and company name extraction
                 experience['title'] = company_para
                 # Extract work_detail if no nested list or "Show More"
@@ -218,8 +241,14 @@ def scrape_experience(driver, li_list, show_more_button):
                     location_element = section.find_element(By.XPATH,
                                                             ".//span[contains(@class, 't-14') and contains(@class, 't-normal') and contains(@class, 't-black--light')][2]")
                     location_text = clean_text(location_element.text).replace('\u00b7', '').strip()
-                    location_text = re.split(r'Hybrid|Remote|On-site', location_text)[0].strip()
-                    experience['location'] = location_text
+
+                    # Remove duplicate locations by splitting on commas and filtering out duplicates
+                    location_text = location_element.text.strip()
+
+                    # Clean the location text to remove duplicate
+                    clean_location_text = clean_location(location_text)
+                    print(f"Cleaned location: {clean_location_text}")
+                    experience['location'] = clean_location_text
                 except NoSuchElementException:
                     experience['location'] = ''
 
@@ -245,7 +274,6 @@ def scrape_experience(driver, li_list, show_more_button):
         print(f"An unexpected error occurred: {e}")
 
     return experiences
-
 
 
 def extract_experience(driver):
@@ -299,6 +327,7 @@ def extract_experience(driver):
     return experiences
 # Call the function with your driver instance
 
+
 def scrape_profile(driver, profile):
     url = profile['url']  # Extract URL from the profile object
     driver.get(url)
@@ -313,7 +342,8 @@ def scrape_profile(driver, profile):
 
         try:
             # Locate the location element using XPath
-            location_element = driver.find_element(By.XPATH, "//span[@class='text-body-small inline t-black--light break-words']")
+            location_element = driver.find_element(By.XPATH,
+                                                "//span[@class='text-body-small inline t-black--light break-words']")
             profile_data['location'] = location_element.text
             print("Location:", profile_data['location'])
 
