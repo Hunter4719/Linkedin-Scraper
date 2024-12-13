@@ -328,6 +328,11 @@ def extract_experience(driver):
 # Call the function with your driver instance
 
 
+def save_progress(all_profiles_data, filename="output.json"):
+    """Save scraped data to a JSON file."""
+    with open(filename, "w", encoding="utf-8") as json_file:
+        json.dump(all_profiles_data, json_file, ensure_ascii=False, indent=4)
+
 def scrape_profile(driver, profile):
     url = profile['url']  # Extract URL from the profile object
     driver.get(url)
@@ -364,16 +369,27 @@ def main():
         linkedin_profiles = json.load(file)
 
     all_profiles_data = []
+    profiles_scraped = 0
+    profiles_to_save_after = 5  # Save every 5 profiles
+
     for profile in linkedin_profiles:
         print(f"Scraping profile: {profile['url']}")
         try:
             profile_data = scrape_profile(driver, profile)
             all_profiles_data.append(profile_data)
+            profiles_scraped += 1
+
+            # Periodically save scraped data
+            if profiles_scraped % profiles_to_save_after == 0:
+                print(f"Saving progress after scraping {profiles_scraped} profiles...")
+                save_progress(all_profiles_data)
+
         except Exception as e:
             print(f"Error scraping {profile['url']}: {e}")
 
-    with open("output.json", "w", encoding="utf-8") as json_file:
-        json.dump(all_profiles_data, json_file, ensure_ascii=False, indent=4)
+    # Final save at the end
+    print("Saving final progress...")
+    save_progress(all_profiles_data)
 
     driver.quit()
 
