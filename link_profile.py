@@ -71,6 +71,7 @@ def clean_text(text):
     text = text.replace('\n', ' ').strip()
     # Replace multiple spaces with a single space
     text = ' '.join(text.split())
+    text = text.replace(' ·', '').replace('· ', '').replace('·', '')
     return text
 
 
@@ -221,12 +222,12 @@ def scrape_experience(driver, li_list, show_more_button):
                     continue
                 company_name_element = section.find_element(By.XPATH,
                                                             ".//span[contains(@class, 't-14') and contains(@class, 't-normal') and not(contains(@class, 't-black--light'))][1]")
-                company_name_text = company_name_element.text.strip()
-                clean_company_text = clean_location(company_name_text)
+                company_name_text = clean_text(company_name_element.text)
                 # Remove any extraneous job type info
-                # company_name_text = re.split(r'Full-time|Part-time|Internship', company_name_text)[0].strip()
-                experience['company'] = clean_company_text
-                print(f"Cleaned Company: {clean_company_text}")
+                company_name_text = re.split(r'Full-time|Part-time|Internship', company_name_text)[0].strip()
+                print(f"Cleaned Company: {company_name_text}")
+                company_name_text = clean_location(company_name_text)
+                experience['company'] = company_name_text
                 # Job title and company name extraction
                 experience['title'] = company_para
                 # Extract work_detail if no nested list or "Show More"
